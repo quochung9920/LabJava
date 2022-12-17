@@ -1,0 +1,6 @@
+1. Có rất nhiều interface trong Java SDK, đôi khi chúng ta có thể sử dụng một biểu thức lambda  thay vì tạo một instance mà phải implement interface đó. Với một interface cho trước, làm thế nào để bạn có thể biết là có thể sử dụng được biểu thức lambda cho interface đó hay không. 
+ -> Biểu thức Lambda được sử dụng tốt nhất khi kết hợp với Function interface. Bạn không thể sử dụng biểu thức Lambda với một interface có nhiều hơn một abstract method.
+2. Interface java.util.Comparator có phải một function interface hay không?
+ -> Biểu thức Lambda cũng được dùng để thay thế các Anonymous inner class. Anonymous inner class: Inner class là class (non static) được viết trong một class khác (out-class). Anonymous class là Inner class nhưng không có ''class' đặt trước tên của class. Khi thực hiện sắp xếp với Collection, chắc hẳn mọi nguời đều tiếp xúc với một Anonymous inner class là Comparator rồi nhỉ.
+3. Chúng ta có thể sử dụng một biểu thức lambda để biểu diễn một instance cho interface java.io.concurrent.Callable không?
+ -> Tương tự câu 2, có thể sử dụng
