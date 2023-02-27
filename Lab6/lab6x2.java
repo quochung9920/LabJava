@@ -9,7 +9,6 @@ public class lab6x2 {
 		int b = sc.nextInt();
 		int answer = 0;
 		for (int i = a; i <= b; i++) {
-			// answer += i means answer = answer + i
 			answer += i;
 		}
 		System.out.println(answer);
